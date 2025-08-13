@@ -1,0 +1,12 @@
+---
+all:
+  hosts:
+    linux_server1:
+      ansible_host: server1.example.com
+    linux_server2:
+      ansible_host: server2.example.com
+  vars:
+    ansible_connection: ssh
+    ansible_user: your_ssh_user
+    vcenter_datacenter: "Your_Datacenter"
+    vcenter_folder: "/VM_Folder_Path"
