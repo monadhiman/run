@@ -1,0 +1,5 @@
+---
+hosts: all
+tasks:
+  #Create a file with 777 permissions on linux
+  - name: file creation with 777 permission
